@@ -174,6 +174,7 @@ function Square(props) {
     document.getElementById('root')
   );
   
+  // Select Tic-tac-toe logic
   function calculateWinner(squares) {
     const lines = [
       [0, 1, 2],
